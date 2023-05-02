@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #b3998a;
+  box-sizing: border-box;
+
+}
+
+.cont {
+  background-color: #976748;
+  height: 350px;
+  width: 300px;
+  border-radius: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 30px;
+}
+
+.bora {
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 65px;
+}
+
+.talvez {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 65px;
+}
+
+.buttom {
+  margin-left: 4.1rem;
+  height: 30px;
+  width: 176px;
+  color: #dcd4cf;
+  background-color: #b3998a;
+}
+
+.buttom:hover {
+  color: rgb(252, 212, 139);
+  cursor: pointer;
+}
+
+.final {
+  font-size: 20PX;
+  margin-left: 95px;
+  display: inline-block;
+  margin-top: 15px;
+  color: #dcd4cf;
+}
+
+
+.menu-h {
+  background: #976748;
+  position: fixed;
+  width: 100%;
+  
+
+}
+
+.menu-h ul {
+  max-width: 800px;
+  list-style-type: none;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.021);
+}
+
+.menu-h ul li {
+  display: inline;
+}
+
+.menu-h ul li a {
+  padding: 25px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background .5s;
+  color: #dcd4cf;;
+}
+
+.menu-h ul li a:hover {
+  color: rgb(252, 212, 139);
+
+}
+
+.parte {
+  padding: 20px;
+  margin: 0;
+}
