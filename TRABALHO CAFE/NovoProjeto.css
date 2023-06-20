@@ -45,7 +45,7 @@ body {
 
 }
 
-img{
+.parte{
     border-radius: 5%;
     margin: auto;
 }
@@ -98,15 +98,18 @@ img{
   transform: scale(1.1);
 }
 
-.bora {
+.anuncio{
+  background-color: wheat;
+  width: 1300px; 
   height: 700px;
+  border-radius: 10%;
 }
 
-.base {
-  height: 600px;
+.mudar{
+  display: flex;
+  width: 30em;
+  height: 30em;
+  margin-right: 69em;
+  
   
 }
-.container{
-    border-radius: 100%;
-}
-
