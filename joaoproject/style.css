@@ -1,32 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#table{
+
+body {
+    background-image: url(https://portalnorte.com.br/wp-content/uploads/2023/03/flamengo-vence-vasco-3-a-2-paula-reis-divulgacao-crf-1.jpg.webp);
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#container {
     display: flex;
     justify-content: center;
-    margin-top: 2em;
+    margin-top: 10%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 550px;
+    height: 70vh;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    background-image: url(data:image/jpeg;base64,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);
+    background-position: center, center;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
 }
-#btn{
-    text-align: center;
+
+#dados {
+    display: inline;
+}
+
+#nome {
+    display: flex;
+    width: 70%;
+    margin-bottom: 1em;
+}
+
+#senha {
+    width: 30%;
+    margin-bottom: 1em;
+}
+
+#avaliar, #envio{
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+    background-color: black;
+}
+
+#avaliar:hover, #envio:hover{
+    background-color: red;
+}
+
+#tabela {
     margin-top: 1em;
-}
-#Envio{
-    padding: 7px 14px;
-    width: 5%;
-}
-#Avaliar{
-    padding: 7px 14px;
-    width: 5%;
-}
-#Envio:hover{
-    background-color: rgb(3, 255, 3);
-}
-#Avaliar:hover{
-    background-color: orange;
-}
-#dados{
-    text-align: center;
-    margin-top: 2em;
+    background-color: black;
+    color: white;
+    border-color: red;
 }
