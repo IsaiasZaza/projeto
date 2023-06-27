@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#table{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+#btn{
+    text-align: center;
+    margin-top: 1em;
+}
+#Envio{
+    padding: 7px 14px;
+    width: 5%;
+}
+#Avaliar{
+    padding: 7px 14px;
+    width: 5%;
+}
+#Envio:hover{
+    background-color: rgb(3, 255, 3);
+}
+#Avaliar:hover{
+    background-color: orange;
+}
+#dados{
+    text-align: center;
+    margin-top: 2em;
+}
