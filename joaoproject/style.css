@@ -6,12 +6,13 @@
 
 #menu {
     display: flex;
-    justify-content: flex-start;
-    padding: 8px 8px 8px 40px;
+    justify-content: space-between;
+    padding: 8px 40px 8px 40px;
     position: fixed;
     width: 100%;
     z-index: 999;
-    box-shadow: 0px 0px 8px white;
+    box-shadow: 2px 2px 8px black;
+    align-items: center;
 }
 
 #menu ul {
@@ -23,6 +24,7 @@
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-decoration: none;
+    font-size: 2.5vh;
 }
 
 #menu a:hover {
@@ -32,9 +34,9 @@
 .box-shadow, main {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to left, rgb(191, 191, 191), rgb(106, 106, 106));
+    background-image: linear-gradient(to left, #DCDCDC, #A9A9A9);
     background-size: 500%, 100%;
-    animation: degrade-animado 5s infinite alternate;
+    animation: degrade-animado 3s infinite alternate;
     z-index: -1;
 }
 
@@ -49,13 +51,13 @@
 }
 
 #container {
-    background-color: rgb(88, 88, 88);
-    z-index: 10;
+    background-color: #969696;
     width: 100%;
     height: 60vh;
     margin: 0 auto;
     position: relative;
     top: 20%;
+    box-shadow: 0px 0px 16px black;
 }
 
 #cont {
@@ -70,23 +72,26 @@
     justify-content: flex-end
 }
 
-#perfil {
+#perfil{
     display: flex;
 }
 
-#perfil img {
+#perfil img{
     display: flex;
     width: 200px;
     height: 250px;
     border-radius: 20%;
 }
-
-#perfil p {
+#perfil h1{
+    font-size: 6vh;
+}
+#perfil p{
     text-align: justify;
     width: 60%;
     font-size: 3vh;
     align-self: center;
     padding-top: 35px;
+    font-weight: bold;
 }
 
 #desc {
@@ -95,9 +100,12 @@
     padding-left: 2rem;
 }
 strong{
-    color: red;
+    color: 	#DCDCDC;
 }
 #projetos{
    display: flex;
    justify-content: center;
 }
+
+
+
